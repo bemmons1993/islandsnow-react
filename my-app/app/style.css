@@ -1,0 +1,41 @@
+/* Footer styling */
+footer {
+  background-color: #292929;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+/* Light thin divider line under headers in the footer */
+footer hr {
+  border-color: #555555;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+/* Spacing for list items in footer columns */
+footer div {
+  line-height: 1.8;
+}
+
+/* Input box and Join button in CONNECT column */
+footer input[type="text"] {
+  padding: 6px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+footer .btn-join {
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid #1a1a1a;
+  border-radius: 0 4px 4px 0;
+  padding: 6px 16px;
+  cursor: pointer;
+}
+
+footer .btn-join:hover {
+  background-color: black;
+}
