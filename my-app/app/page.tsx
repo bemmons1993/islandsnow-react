@@ -68,7 +68,7 @@ const SnowIslandLogo = () => (
   <Row>
     <Col>
       <img
-        src="/snowislandlogo.png"
+        src="/islandsnow-react/snowislandlogo.png"
         className="img-fluid rounded mx-auto d-block py-1"
         alt="Snow Island Logo"
       />
@@ -110,7 +110,7 @@ const FullWidthBackgroundImage = () => (
   <Row className="justify-content-center">
     <Col>
       <img
-        src="/snowislandbridge.png"
+        src="/islandsnow-react/snowislandbridge.png"
         className="img-fluid w-100"
         alt="Snow Island Bridge"
       />
