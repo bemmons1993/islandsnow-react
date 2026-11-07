@@ -1,5 +1,4 @@
 "use client";
-const prefix = process.env.NODE_ENV === 'production' ? '/islandsnow-react' : '';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
@@ -14,6 +13,8 @@ import {
   PersonFill,
   CartFill,
 } from "react-bootstrap-icons";
+
+const prefix = process.env.NODE_ENV === 'production' ? '/islandsnow-react' : '';
 
 // Top Navbar
 const TopMenu = () => {
@@ -68,7 +69,7 @@ const SnowIslandLogo = () => (
   <Row>
     <Col>
       <img
-        src="/snowislandlogo.png"
+        src={`${prefix}/snowislandlogo.png`}
         className="img-fluid rounded mx-auto d-block py-1"
         alt="Snow Island Logo"
       />
@@ -110,7 +111,7 @@ const FullWidthBackgroundImage = () => (
   <Row className="justify-content-center">
     <Col>
       <img
-        src="/snowislandbridge.png"
+        src={`${prefix}/snowislandbridge.png`}
         className="img-fluid w-100"
         alt="Snow Island Bridge"
       />
