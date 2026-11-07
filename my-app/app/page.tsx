@@ -1,5 +1,5 @@
 "use client";
-
+const prefix = process.env.NODE_ENV === 'production' ? '/islandsnow-react' : '';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
